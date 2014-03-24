@@ -1,0 +1,15 @@
+{
+  "name": "ionic-starter-blank",
+  "version": "0.0.0",
+  "description": "Ionic Blank Starter Project",
+  "main": "",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/webdriver-manager update",
+    "test": "./node_modules/.bin/protractor e2e/e2e.conf.js"
+  },
+  "author": "ElJuli",
+  "license": "MIT",
+  "devDependencies": {
+    "protractor": "^0.20.1"
+  }
+}
