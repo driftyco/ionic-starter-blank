@@ -7,6 +7,6 @@ angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-    StatusBar.styleDefault();
+    //StatusBar.styleDefault();
   });
 })
